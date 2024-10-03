@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Images/SECURITY\ 2.jpeg); /* Dark background for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #1e1e1e; /* Darker container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff; /* White text for headings */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #ffffff; /* White text for labels */
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    background-color: #333; /* Dark background for inputs */
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+    max-height: 150px;
+    min-height: 90px;
+}
+
+button {
+    background-color: hsl(38, 61%, 73%); /* Bright color for button */
+    color: #000; /* Black text */
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+    border: 2px solid hsl(38, 61%, 73%); /* Border color on hover */
+}
+
+.description {
+    font-size: 0.9em;
+    color: #aaa; /* Light grey text for description */
+    margin-top: 10px;
+    text-align: center; /* Centered description */
+}
+
+p {
+    margin-top: 10px;
+    color: #ffffff; /* White text for paragraph */
+    text-align: center;
+}
+
+a {
+    color: hsl(38, 61%, 73%); /* Color matching button */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
